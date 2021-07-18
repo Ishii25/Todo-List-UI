@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+.container{
+    margin-left: 23%;
+    margin-top: 7%;
+    width: 745px;
+    filter:blur(6px);
+   
+}
+.heading{
+    display: inline-block;
+}
+.heading1{
+    font-family: 'Encode Sans SC',sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+}
+.heading2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 55px;
+    color: #999898;
+}
+
+.add-list-icon{
+    display: inline-block;
+    color: #e74c3c;
+    font-weight: lighter;
+    margin-left: 283px;
+}
+.add-list-text{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.todo-list-main-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.todo-list-container{
+    width: 200px;
+    height: 325px;
+    border: 1px solid #e74c3c ;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px lightgrey;
+}
+.inner-text-1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #ec3f2c;
+    margin-bottom: 10px;
+    
+}
+.horizontal-line{
+   margin-left: 30px;
+   margin-top: 0px;
+}
+.complete-task-text{
+    color: #e74c3c;
+   text-align: end;
+   margin: 35px 10px 5px 5px;
+   font-size: 22px;
+   font-weight: 400;
+   text-decoration: line-through;
+   text-decoration-color: #e74c3c;
+}
+.pending-task{
+   
+    margin-top: 20px;
+    font-size: 20px;
+}
+input.pending-task-checkbox{
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+}
+.add-newlist-container{
+    width: 450px;
+    height: 250px;
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px lightgrey;
+    filter: blur(0);
+    background-color: white;
+    position: absolute;
+    left: 441px;
+    bottom: 125px;
+    margin-bottom: 30px;
+    
+   
+    
+
+}
+.add-newlist{
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight:400;
+
+}
+.input{
+    height: 35px;
+    width: 300px;
+    border: 1px solid #e74c3c;
+    margin-left: 75px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+.btn{
+    height: 44px;
+    width: 110px;
+    color: white;
+    border-radius:25px;
+    background-color:#e74c3c ;
+    margin-left:168px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    box-shadow:0px;
+
+}
+
